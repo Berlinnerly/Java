@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>文件下载</title>
+</head>
+<body>
+<!--
+    超链接下载
+        当浏览器遇到能够识别的资源，会进行跳转；
+        当浏览器遇到能无法识别的资源，会进行下载；
+
+        download属性
+            表示当前超链接的资源会被下载
+            如果download属性没有设置属性值，默认的下载名为文件名
+            也可以通过设置的download属性值来指定下载的文件名
+-->
+<!--浏览器能够识别的资源-->
+<a href="index.jsp">jsp页面</a><br>
+<a href="upload.html">HTML页面</a><br>
+<a href="./git-bash.png">图片</a><br>
+<a href="test.txt">TXT文件</a>
+
+<!--浏览器不能识别的资源-->
+<hr>
+<a href="">快捷方式</a>
+<a href="">exe文件</a>
+
+<!--download属性-->
+<a href="git-bash.png" download>图片</a>
+<a href="test.txt" download="测试.txt">txt文件</a>
+
+<hr>
+
+<form action="downloadServlet">
+    要下载的文件名：<input type="text" name="fileName">
+    <button>下载</button>
+</form>
+</body>
+</html>

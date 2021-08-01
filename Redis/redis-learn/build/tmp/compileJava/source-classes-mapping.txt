@@ -1,0 +1,2 @@
+com/berlin/redis/TestRedis.java
+ com.berlin.redis.TestRedis

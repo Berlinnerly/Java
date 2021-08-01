@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8b657d20-dea3-450e-9ab4-cd8398e87489" name="默认的" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1k4xWzA3tsaNmCnYZpvDQPbnR6K" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="extract.method.default.visibility" value="public" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/com/Berlin/socket" />
+    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.Berlin.socket" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\JavaWorkPlace\网络编程\src\com\Berlin\socket" />
+    </key>
+  </component>
+  <component name="RunManager" selected="应用程序.Haha">
+    <configuration name="Demo4_GUIChat" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Berlin.socket.Demo4_GUIChat" />
+      <module name="网络编程" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.Berlin.socket.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GUIChat" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Berlin.socket.GUIChat" />
+      <module name="网络编程" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.Berlin.socket.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GuiChat" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Berlin.socket.GuiChat" />
+      <module name="网络编程" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.Berlin.socket.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Haha" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Berlin.socket.Haha" />
+      <module name="网络编程" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.Berlin.socket.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MoreThread_" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Berlin.socket.MoreThread_" />
+      <module name="网络编程" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.Berlin.socket.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="应用程序.Haha" />
+        <item itemvalue="应用程序.GUIChat" />
+        <item itemvalue="应用程序.Demo4_GUIChat" />
+        <item itemvalue="应用程序.GuiChat" />
+        <item itemvalue="应用程序.MoreThread_" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8b657d20-dea3-450e-9ab4-cd8398e87489" name="默认的" comment="" />
+      <created>1604973701401</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1604973701401</updated>
+      <workItem from="1604973702412" duration="6817000" />
+      <workItem from="1604986045148" duration="4182000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="361" y="91" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604989775607">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="361" y="91" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.864@0.0.1536.864" timestamp="1604989775607" />
+    <state x="574" y="136" key="#com.intellij.ide.util.MemberChooser" timestamp="1604986985686">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="574" y="136" key="#com.intellij.ide.util.MemberChooser/0.0.1536.864@0.0.1536.864" timestamp="1604986985686" />
+    <state x="445" y="169" key="FileChooserDialogImpl" timestamp="1604986383948">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="445" y="169" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1604986383948" />
+    <state width="1492" height="101" key="GridCell.Tab.0.bottom" timestamp="1604991945373">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1492" height="101" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1604991945373" />
+    <state width="1492" height="101" key="GridCell.Tab.0.center" timestamp="1604991945372">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1492" height="101" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1604991945372" />
+    <state width="1492" height="101" key="GridCell.Tab.0.left" timestamp="1604991945372">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1492" height="101" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1604991945372" />
+    <state width="1492" height="101" key="GridCell.Tab.0.right" timestamp="1604991945373">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1492" height="101" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1604991945373" />
+    <state x="166" y="59" key="SettingsEditor" timestamp="1604986398719">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="166" y="59" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1604986398719" />
+    <state x="499" y="192" key="extract.method.dialog" timestamp="1604985134976">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="499" y="192" key="extract.method.dialog/0.0.1536.864@0.0.1536.864" timestamp="1604985134976" />
+  </component>
+</project>

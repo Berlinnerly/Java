@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:p="http://www.springframework.org/schema/p"
+       xmlns:utils="http://www.springframework.org/schema/util"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/util https://www.springframework.org/schema/util/spring-util.xsd">
+
+    <bean id="person1" class="com.berlin.bean.Person" init-method="init" destroy-method="destroy">
+        <property name="name" value="Berlin"/>
+        <property name="sex" value="男"/>
+        <property name="age" value="18"/>
+    </bean>
+
+    <!--通过构造器进行赋值-->
+    <bean class="com.berlin.bean.Person" id="person2">
+        <constructor-arg value="Tokyo" index="0" type="java.lang.String"/>
+        <constructor-arg value="23" index="1" type="java.lang.Integer"/>
+        <constructor-arg value="女" index="2" type="java.lang.String"/>
+    </bean>
+
+    <!--通过P命名空间进行赋值-->
+    <bean id="person3" class="com.berlin.bean.Person" p:name="Professor" p:age="34" p:sex="男"/>
+
+    <!--使用utils命名空间创建List集合和Map集合-->
+    <utils:list id="list">
+        <value>历史</value>
+        <value>军事</value>
+        <value>地理</value>
+    </utils:list>
+
+    <utils:map id="map">
+        <entry key="1" value="2"/>
+        <entry key-ref="list" value-ref="list"/>
+    </utils:map>
+</beans>

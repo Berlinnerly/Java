@@ -1,0 +1,20 @@
+com/berlin/AOP/MathI.java
+ com.berlin.AOP.MathI
+com/berlin/bean/Person.java
+ com.berlin.bean.Person
+com/berlin/AOP/Test.java
+ com.berlin.AOP.Test
+com/berlin/AOP/MathImpl.java
+ com.berlin.AOP.MathImpl
+com/berlin/AOP/TestAspect.java
+ com.berlin.AOP.TestAspect
+com/berlin/AOP/MyAspect.java
+ com.berlin.AOP.MyAspect
+com/berlin/AopXml/MathI.java
+ com.berlin.AopXml.MathI
+com/berlin/AopXml/MyLoggerAspect.java
+ com.berlin.AopXml.MyLoggerAspect
+com/berlin/AopXml/Test.java
+ com.berlin.AopXml.Test
+com/berlin/AopXml/MathImpl.java
+ com.berlin.AopXml.MathImpl

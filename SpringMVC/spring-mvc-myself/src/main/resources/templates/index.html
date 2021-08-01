@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>index</title>
+</head>
+<body>
+<a href="hello/test/1/berlin">testget</a>
+
+<hr>
+
+<!--测试Post请求-->
+<form action="hello/testpost" method="post">
+    <input type="submit" value="testpost">
+</form>
+
+<hr>
+
+<!--测试PUT请求-->
+<form action="hello/testput/2" method="post">
+    <input name="_method" type="hidden" value="PUT">
+    <input type="submit" value="testput">
+</form>
+
+<hr>
+
+<!--测试delete请求-->
+<form action="hello/testdelete/3" method="post">
+    <input name="_method" type="hidden" value="DELETE">
+    <input type="submit" value="testdelete">
+</form>
+
+<hr>
+
+<!--@RequestParam注解-->
+<a href="hello/testrequestparam?username=berlin&age=18">TestRequestParam</a>
+
+<hr>
+
+<!--@RequestHeader-->
+<a href="hello/testrequestheader">TeestRequestHeader</a>
+
+<hr>
+
+<!--@CookieValue-->
+<a href="hello/testcookievalue">TestCookieValue</a>
+
+<!--测试POJO作为参数-->
+<form action="hello/testpojo" method="POST">
+    username: <input name="username" type="text"/><br>
+    password: <input name="password" type="password"/><br>
+    email: <input name="email" type="text"/><br>
+    age: <input name="age" type="text"/><br>
+    city: <input name="address.city" type="text"/><br>
+    province: <input name="address.province" type="text"/>
+    <input type="submit" value="Submit"/>
+</form>
+
+<!--测试Servlet原生API-->
+<a href="hello/testservletapi">TestServletApi</a>
+
+<hr>
+
+<!--测试ModelAndView-->
+<a href="testmodelandview">TestModelAndView</a>
+
+<hr>
+
+<!--测试Map处理响应数据-->
+<a href="testmap">TestMap</a>
+
+<hr>
+
+<!--测试使用Model处理响应数据-->
+<a href="testmodel">TestModel</a>
+
+<hr>
+
+<!--测试重定向页面-->
+<a href="testredirect">TestRedirect</a>
+
+<hr>
+
+<!--测试Json-->
+<a href="testjson">TestJson</a>
+
+<!--测试文件上传-->
+<form action="testupload" method="post" enctype="multipart/form-data">
+    文件：<input type="file" name="file"> <br>
+    描述：<input type="text" name="desc"> <br>
+    <input type="submit" value="提交">
+</form>
+
+<a href="download/LOL.xlsx">下载文件</a>
+</body>
+</html>

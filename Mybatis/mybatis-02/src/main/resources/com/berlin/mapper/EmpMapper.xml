@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+
+<mapper namespace="com.berlin.mapper.EmpMapper">
+
+    <select id="getEmpByEid" resultType="Emp">
+        select *
+        from emp
+        where eid = #{eid};
+    </select>
+
+    <select id="getAllEmp" resultType="Emp">
+        select *
+        from emp;
+    </select>
+
+    <!--
+        useGeneratedKeys:可以使用自动生成的主键
+        keyProperty：将自动生成的主键赋值给传递过来的参数的哪一个属性
+    -->
+    <insert id="addEmp" useGeneratedKeys="true" keyProperty="eid">
+        insert into emp
+        values (null, #{ename}, #{age}, #{sex});
+    </insert>
+
+    <update id="updateEmp">
+        update emp
+        set ename = #{ename},
+            age   = #{age},
+            sex   = #{sex}
+        where eid = #{eid};
+    </update>
+
+    <delete id="deleteEmp">
+        delete
+        from emp
+        where eid = #{eid};
+    </delete>
+
+    <select id="getCount" resultType="Integer">
+        select count(*)
+        from emp;
+    </select>
+
+    <select id="getAllEmpMap" resultType="Emp">
+        select *
+        from emp;
+    </select>
+
+    <select id="getallempmap" resultType="Emp">
+        select *
+        from user
+    </select>
+</mapper>

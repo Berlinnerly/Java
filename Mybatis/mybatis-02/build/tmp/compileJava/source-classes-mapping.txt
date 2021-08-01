@@ -1,0 +1,8 @@
+com/berlin/bean/Emp.java
+ com.berlin.bean.Emp
+com/berlin/bean/Dept.java
+ com.berlin.bean.Dept
+com/berlin/mapper/EmpMapper.java
+ com.berlin.mapper.EmpMapper
+com/berlin/mapper/ParamMapper.java
+ com.berlin.mapper.ParamMapper

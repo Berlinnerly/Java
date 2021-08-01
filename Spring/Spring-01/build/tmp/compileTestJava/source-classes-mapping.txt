@@ -1,0 +1,2 @@
+com/berlin/bean/TestPerson.java
+ com.berlin.bean.TestPerson

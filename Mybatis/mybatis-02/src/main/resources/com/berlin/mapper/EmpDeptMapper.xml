@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.berlin.mapper.EmpDeptMapper">
+
+    <!--
+        <resultMap>:自定义映射，处理复杂的表关系
+        <id column="eid" property="eid">
+        <id>:设置主键的映射关系，column设置字段名，property设置属性名
+        <result column="eName" property="eName"/>
+        <result>:设置非主键的映射关系，column设置字段名，property设置属性名
+    -->
+
+<!--    <resultMap id="empMap" type="Emp">
+        <id column="eid" property="eid"/>
+        <result column="eName" property="eName"/>
+        <result column="age" property="age"/>
+        <result column="sex" property="sex"/>
+        <result column="did" property="dept.did"/>
+        <result column="dName" property="dept.dName"/>
+    </resultMap>-->
+
+    <resultMap id="empMap" type="Emp">
+        <id column="eid" property="eid"/>
+        <result column="eName" property="eName"/>
+        <result column="age" property="age"/>
+        <result column="sex" property="sex"/>
+        <association property="dept" javaType="Dept">
+            <id column="did" property="did"/>
+            <result column="dName" property="dName"/>
+        </association>
+    </resultMap>
+
+    <select id="getAllEmp" resultMap="empMap">
+        select e.eid,e.eName,e.age,e.sex,e.did from emp e left join dept d on e.did = d.did
+    </select>
+
+    <resultMap id="empMapStep" type="Emp">
+        <id column="eid" property="eid"/>
+        <result column="eName" property="eName"/>
+        <result column="age" property="age"/>
+        <result column="sex" property="sex"/>
+        <!--
+            select:分布查询的SQL的id,即接口的全限定名.方法名或namespace.SQL的id
+            column：分步查询的条件，注意：此条件必须是从数据库查询过的
+        -->
+        <association property="dept" select="com.berlin.mapper.DeptMapper.getDeptByBid" column="did"/>
+    </resultMap>
+    <select id="getEmpStep" resultMap="Emp">
+        select eid,eName,age,sex,did from emp where eid = #{eid}
+    </select>
+
+    <resultMap id="id" type="Emp">
+        <id column="eid" property="eid"/>
+        <result column="eName" property="eName"/>
+        <result column="age" property="age"/>
+        <result column="sex" property="sex"/>
+        <association property="dept" select="com.berlin.mapper.DeptMapper.getDeptByBid" column="did"/>
+    </resultMap>
+</mapper>

@@ -1,0 +1,25 @@
+plugins {
+    id 'java'
+}
+
+group 'org.example'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'junit:junit:4.12'
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.6.0'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine'
+    compile group: 'org.springframework', name: 'spring-context', version: '5.2.12.RELEASE'
+    compile group: 'org.aspectj', name: 'aspectjweaver', version: '1.9.6'
+    compile group: 'mysql', name: 'mysql-connector-java', version: '8.0.22'
+    compile group: 'com.alibaba', name: 'druid', version: '1.2.4'
+    compile group: 'org.springframework', name: 'spring-jdbc', version: '5.2.12.RELEASE'
+}
+
+test {
+    useJUnitPlatform()
+}
